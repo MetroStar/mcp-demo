@@ -20,6 +20,7 @@ This project is built using the following tools and libraries:
 - Use the Comet Component Library for UI components.
 - Comet components are documented at [Comet Documentation](https://metrostar.github.io/comet).
 - Use the Comet Icon component for icons.
+- Use the Comet Data Viz components for data visualization.
 - All Comet components should include an `id` attribute.
 - Use arrow functions for components and hooks.
 - Use functional components instead of class components.
@@ -35,6 +36,7 @@ This project is built using the following tools and libraries:
 ## Styling Guidelines
 
 - Use SCSS for styling.
+- Do not use any inline styles, all styles should be in SCSS files.
 - Global styles should be in `src/styles/global.scss`.
 - Component level styling should be in a `.scss` file with the same name as the component.
 - Use USWDS utility classes where possible.
@@ -58,3 +60,8 @@ This project is built using the following tools and libraries:
 - Ensure HTML is WCAG 2.1 AA and Section 508 compliant.
 - Ensure HTML meets accessibility best practices for screen readers, keyboard navigation, and color contrast.
 - Use semantic HTML and ARIA roles appropriately.
+
+## Miscellaneous
+
+- Do not implement any header or footer components, as they are already present in the app.
+- Do not use any third-party libraries that are not already included in the project.
