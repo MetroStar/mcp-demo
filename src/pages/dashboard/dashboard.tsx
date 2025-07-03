@@ -251,7 +251,7 @@ export const Dashboard = (): React.ReactElement => {
             <CardBody>
               <PieChart
                 title="Security Events"
-                height={400}
+                height={300}
                 width={400}
                 colors="warm"
                 data={securityEventsData}
