@@ -9,8 +9,3 @@ export interface CaseTableData {
   assigned_to?: string;
   created_at: string;
 }
-
-export interface ChartData {
-  x: string;
-  y: number;
-}
