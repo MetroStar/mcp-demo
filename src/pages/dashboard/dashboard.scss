@@ -1,0 +1,89 @@
+// Dashboard specific styles
+.dashboard-metric {
+  text-align: center;
+  padding: 1rem 0;
+
+  &-label {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #71767a;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+  }
+
+  &-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+
+    &--success {
+      color: #00a91c;
+    }
+
+    &--error {
+      color: #e52207;
+    }
+
+    &--warning {
+      color: #e5a000;
+    }
+
+    &--info {
+      color: #0081a1;
+    }
+  }
+}
+
+.dashboard-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  width: 100%;
+}
+
+.dashboard-table {
+  width: 100%;
+
+  table {
+    width: 100%;
+  }
+}
+
+// Card modifications for dashboard
+.usa-card {
+  margin-bottom: 0;
+  height: 100%;
+
+  .usa-card__body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1b1b1b;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #71767a;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+  }
+
+  p {
+    font-size: 1.0625rem;
+    color: #1b1b1b;
+    line-height: 1.62;
+    margin-bottom: 1rem;
+  }
+}
